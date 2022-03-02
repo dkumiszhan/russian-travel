@@ -7,4 +7,10 @@
 /* identical to box height, or 122% */
   text-decoration-line: underline;
   color: #FFFFFF;
+  opacity: 1;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s linear;
 }

@@ -1,8 +1,28 @@
 .cover {
-  max-width: 1184px;
-  margin: 12px auto 92px;
   background-image: url("../../images/__background.jpg");
-  background-color: #000;
-  height: 740px;
+  max-width: 1184px;
+  /*max-height: 740px;*/
+  margin: 12px auto 92px;
+  color: #fff;
+  background-size: cover;
   position: relative;
+  z-index: 1;
+  height: 740px;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  z-index: -1;
+  transition: opacity 350ms ease;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }

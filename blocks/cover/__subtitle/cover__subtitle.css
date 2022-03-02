@@ -6,8 +6,7 @@
   line-height: 22px;
 /* or 122% */
   text-align: center;
-  color: #FFFFFF;
-  margin: 0 auto;
-  padding-top: 32px;
+  margin: 0 412px 0 412px;
   position: relative;
+  max-width: 360px;
 }
