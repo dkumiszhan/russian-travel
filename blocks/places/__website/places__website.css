@@ -3,5 +3,6 @@
   grid-column: 2/-1;*/
   align-self: end;
   grid-area: "props";
-  margin-bottom: -2px;
+  width: 456px;
+  margin-right: 156px;
 }

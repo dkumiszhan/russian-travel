@@ -9,3 +9,12 @@
   margin: 0;
   list-style-type: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 12px;
+    column-gap: 12px;
+  }
+  
+}

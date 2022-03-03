@@ -1,6 +1,11 @@
 .lead {
-  width: calc((984/1280)*100%);
+  width: 984px;
   position: relative;
-  margin: 56px auto 0;
-  
+  margin: 56px 148px 0 148px; 
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 928px;
+  }  
 }
