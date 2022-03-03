@@ -1,13 +1,17 @@
 @font-face {
-    font-family: 'Inter';
-    src: url("./inter/inter-v8-latin-regular.woff") format("woff"),
-    url("./inter/inter-v8-latin-regular.woff2") format("woff2");
-    font-weight: normal;
+  font-family: 'Inter';
+  src: url("../../vendor/fonts/inter/inter-v8-cyrillic-regular.woff") format("woff"),
+  url("../../vendor/fonts/inter/inter-v8-cyrillic-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url("./inter/inter-v8-latin-900.woff") format("woff"),
-    url("./inter/inter-v8-latin-900.woff2") format("woff2");
-    font-weight: bold;
+  font-family: 'Inter';
+  src: url("../fonts/inter/inter-v8-cyrillic-900.woff") format("woff"),
+  url("../fonts/inter/inter-v8-cyrillic-900.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
 }
