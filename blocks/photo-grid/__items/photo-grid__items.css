@@ -16,5 +16,12 @@
     row-gap: 14px;
     column-gap: 14px;
   }
-  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    row-gap: 16px;
+    column-gap: 16px;
+  }
 }

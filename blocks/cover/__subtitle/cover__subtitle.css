@@ -17,6 +17,14 @@
     margin-left: 332px;
     margin-right: 332px;
     margin-top: 1px;
-  }
-    
+  } 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__subtitle {
+      max-width: 360px;
+      margin-left: 204px;
+      margin-right: 204px;
+      margin-top: 1px;
+    } 
+  }

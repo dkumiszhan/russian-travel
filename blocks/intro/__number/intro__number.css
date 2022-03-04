@@ -1,13 +1,10 @@
-.intro__list {
-  width: 100%;
+.intro__number {
+ 
   font-family: Inter;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
 /* or 150% */
   color: #FFFFFF;
-  padding: 0;
-  list-style-type: none;
-  margin: 0;
 }
