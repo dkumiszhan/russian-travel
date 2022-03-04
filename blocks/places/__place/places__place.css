@@ -11,3 +11,12 @@
   grid-template-columns: 460px;
   margin-bottom: 80px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__place {
+    column-gap: 32px;
+    grid-template-columns: 440px;
+    
+  }
+  
+}

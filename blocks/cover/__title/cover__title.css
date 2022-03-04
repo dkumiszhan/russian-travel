@@ -12,3 +12,11 @@
   position: relative;
   max-width: 560px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__title {
+    margin-left: 232px;
+    margin-right: 232px;
+    padding-top: 195px;
+  }  
+}

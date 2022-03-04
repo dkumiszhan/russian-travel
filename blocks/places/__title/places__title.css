@@ -11,4 +11,5 @@
   margin: 0;
   align-self: end;
   grid-area: "title";
+  padding: 0;
 }

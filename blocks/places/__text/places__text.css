@@ -3,4 +3,16 @@
   grid-column: 2/-1;*/
   grid-area: text;
   width: 484px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+  .places__text {
+    max-width: 456px;
+  }
+  
 }

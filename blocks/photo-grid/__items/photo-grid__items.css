@@ -10,11 +10,11 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: 12px;
-    column-gap: 12px;
+    row-gap: 14px;
+    column-gap: 14px;
   }
   
 }
