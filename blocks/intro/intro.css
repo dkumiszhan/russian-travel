@@ -20,3 +20,13 @@
     width: 720px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro {
+    width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 64px;
+  }
+}
