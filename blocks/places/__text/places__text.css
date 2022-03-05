@@ -1,6 +1,4 @@
 .places__text {
-  /*grid-row: 2/-1;
-  grid-column: 2/-1;*/
   grid-area: text;
   width: 484px;
   margin: 0;

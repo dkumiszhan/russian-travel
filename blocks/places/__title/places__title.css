@@ -1,12 +1,9 @@
 .places__title {
-  /*grid-row: 1/2;
-  grid-column: 1/2;*/
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
   line-height: 76px;
-/* or 106% */
   color: #FFFFFF;
   margin: 0;
   align-self: end;
