@@ -20,4 +20,4 @@
 
 **Github Pages**
 
-Ссылка на Github Pages следующая 
+Ссылка на Github Pages следующая https://dkumiszhan.github.io/russian-travel/index.html
